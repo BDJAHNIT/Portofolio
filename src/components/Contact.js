@@ -37,9 +37,9 @@ export const Contact = () => {
     let result = await response.json(); 
     setFormDetails(formInitialDetails); 
     if (result.code == 200) { 
-      setStatus({ succes: true, message: 'Message sent successfully'}); 
+      setStatus({ succes: true, message: 'message envoyé avec succès'}); 
     } else { // sinon
-      setStatus({ succes: false, message: 'Something went wrong, please try again later.'});  
+      setStatus({ succes: false, message: 'Quelque chose c\'est mal passé. Merci d\'essayer plus tard.'});  
     }
   };
 

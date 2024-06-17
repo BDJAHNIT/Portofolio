@@ -1,4 +1,4 @@
-# My Portfolio
+# Portfolio
 
 
 Ce projet a été démarré avec bootstrapped [Create React App](https://github.com/facebook/create-react-app).
@@ -13,7 +13,7 @@ Bibliothèque d'animations CSS : Animate.css
 
 Dans le Portfolio, vous pouvez exécuter :
 
-### `npm start`
+## `npm start`
 
 Exécute l'application en mode développement.
 Ouvrez [http://localhost:3000] pour l'afficher dans votre navigateur.
@@ -36,5 +36,5 @@ La construction est minifiée et les noms de fichiers incluent les hachages.
 
 Votre application est prête à être déployée !
 
-Voir la section sur le déploiement [deployment](https://facebook.github.io/create-react-app/docs/deployment) pour plus d'informations.
+Consultez la section sur le [déploiement](https://facebook.github.io/create-react-app/docs/deployment) pour plus d'informations.
 
