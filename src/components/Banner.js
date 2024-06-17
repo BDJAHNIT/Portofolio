@@ -12,7 +12,7 @@ export const Banner = () => { // créer le composant Banner
   const [text, setText] = useState(''); // initialiser text à ''
   const [delta, setDelta] = useState(300 - Math.random() * 100); // initialiser delta à 300 - Math.random() * 100
   const [index, setIndex] = useState(1); // initialiser index à 1
-  const toRotate = [ "Développeur web", "Web Full Stack", "Web Accessibilité" ]; // définir to Rotate
+  const toRotate = [ "Développeur Web Full Stack Et Accessibilité", "Web Full Stack", "Web Accessibilité" ]; // définir to Rotate
   const period = 2000; // définir periode
 
   useEffect(() => { // créer un effet
@@ -57,7 +57,7 @@ export const Banner = () => { // créer le composant Banner
               {({ isVisible }) => 
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}> 
                 <span className="tagline">Bienvenue dans mon Portfolio</span> 
-                <h1>{`Bonjour ! je suis Badreddine`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Développeur Web", "Web Full stack", "Web Accessibilité" ]'><span className="wrap">{text}</span></span></h1>
+                  <h1>{`Bonjour ! je suis Badreddine`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Développeur Web Full Stack Et Accessibilité", "Web Full Stack", "Web Accessibilité" ]'><span className="wrap">{text}</span></span></h1>
                   <p>Après une expérience de 14 ans en tant qu’employé chez Auchan dans plusieurs
                     postes, j’ai décidé d’entreprendre une reconversion professionnelle pour devenir
                     développeur web avec spécialisation en accessibilité. Curieux de nature, je suis
