@@ -33,7 +33,7 @@ export const Contact = () => {
       },
       body: JSON.stringify(formDetails), 
     });
-    setButtonText("Send"); 
+    setButtonText("Envoyer"); 
     let result = await response.json(); 
     setFormDetails(formInitialDetails); 
     if (result.code == 200) { 
@@ -50,7 +50,7 @@ export const Contact = () => {
           <Col size={12} md={6}>
             <TrackVisibility>
               {({ isVisible }) =>
-                <img className={isVisible ? "animate__animated animate__zoomIn" : ""} src={contactImg} alt="Contact Us"/>
+                <img className={isVisible ? "animate__animated animate__zoomIn" : ""} src={contactImg} alt="Contactez-moi"/>
               }
             </TrackVisibility>
           </Col>
