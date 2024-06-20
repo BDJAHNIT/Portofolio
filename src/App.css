@@ -83,7 +83,9 @@ p.success {
 p.danger {
 	color: red;
 }
-/************ Navbar Css ************/
+
+/************ Barre de navigation Css (Navbar) ***********/
+
 nav.navbar {
   padding: 18px 0;
   position: fixed;
