@@ -1,4 +1,4 @@
-// jest-dom ajoute des correspondants de plaisanteries personnalisés pour l'affirmation sur les nœuds DOM.
+// jest-dom ajoute des comparateurs personnalisés pour l'insertion sur le DOM nodes.
 
 // vous permet de faire des choses comme :
 
