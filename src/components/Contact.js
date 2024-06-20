@@ -13,7 +13,7 @@ export const Contact = () => {
     message: ''
   }
   const [formDetails, setFormDetails] = useState(formInitialDetails); 
-  const [buttonText, setButtonText] = useState('Send'); 
+  const [buttonText, setButtonText] = useState('Envoyer); 
   const [status, setStatus] = useState({}); 
 
   const onFormUpdate = (category, value) => { 
@@ -25,7 +25,7 @@ export const Contact = () => {
 
   const handleSubmit = async (e) => { 
     e.preventDefault(); 
-    setButtonText("Sending..."); 
+    setButtonText("Envoi en cours..."); 
     let response = await fetch("http://localhost:5000/contact", { 
       method: "POST", 
       headers: { 
