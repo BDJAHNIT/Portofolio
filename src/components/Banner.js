@@ -9,7 +9,7 @@ import { Contact } from './Contact'; // importer le composant Contact
 export const Banner = () => { // créer le composant Banner
   const [loopNum, setLoopNum] = useState(0); // initialiser loopNum à 0
   const [isDeleting, setIsDeleting] = useState(false); // initialiser isDeleting à false
-  const [text, setText] = useState(''); // initialiser text à ''
+  const [text, setText] = useState(''); // initialiser text 
   const [delta, setDelta] = useState(300 - Math.random() * 100); // initialiser delta à 300 - Math.random() * 100
   const [index, setIndex] = useState(1); // initialiser index à 1
   const toRotate = [ "Développeur Web Full Stack Et Accessibilité", "Web Full Stack", "Web Accessibilité" ]; // définir to Rotate
@@ -18,7 +18,7 @@ export const Banner = () => { // créer le composant Banner
   useEffect(() => { // créer un effet
     let ticker = setInterval(() => { // initialiser ticker à setInterval
       tick(); // appeler la fonction tick
-    }, delta); // delta
+    }, delta); 
 
     return () => { clearInterval(ticker) }; // retourner clearInterval(ticker)
   }, [text]) // text
