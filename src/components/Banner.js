@@ -62,7 +62,7 @@ export const Banner = () => { // créer le composant Banner
                     postes, j’ai décidé d’entreprendre une reconversion professionnelle pour devenir
                     développeur web avec spécialisation en accessibilité. Curieux de nature, je suis
                     animé par l'idée d'apprendre en continu et de développer mes compétences.</p>
-                  <button onClick={() => ('connect')}>Contacter <ArrowRightCircle size={25} /></button>
+                  <button onClick={=> ('connect')}>Contacter <ArrowRightCircle size={25} /></button>
               </div>}
             </TrackVisibility>
           </Col>
